@@ -54,4 +54,4 @@ for (a in 1:length(gene.names)) {
 		
 	sink()
 	
-}
+}		
