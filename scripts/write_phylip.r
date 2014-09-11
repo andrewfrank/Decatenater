@@ -10,7 +10,7 @@ if (file.exists(file.path(file.location,"phylip_data")) == FALSE) {
 		seq(1,length(data.align)),
 		function(x) {	
 			write.dna(
-				data.align[x],
+				data.align[[x]],
 				file=file.path(
 					"phylip_data",
 					paste0(
