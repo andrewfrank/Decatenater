@@ -1,4 +1,14 @@
-dir.create(file.path("partitionfinder config files")) #Create the subdir for all the partition finder config files
+dir.create(file.path("pf_configs")) #Create the subdir for partitionfinder config files
+
+pfphy.name.all <- list.files(
+	path=".", 
+	pattern = ".phy", 
+	all.files=FALSE, 
+	full.names=FALSE, 
+	recursive=TRUE, 
+	include.dirs=FALSE
+)
+
 
 for (a in 1:length(gene.names)) {
 

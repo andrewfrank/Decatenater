@@ -14,6 +14,7 @@ REQUIREMENTS
 
 Decatenater requires the following R packages:
 * ape (http://cran.r-project.org/web/packages/ape/)
+* Biostrings (http://www.bioconductor.org/packages/release/bioc/html/Biostrings.html)
 
 INSTALLATION & CONFIGURATION
 ----------------------------
