@@ -14,7 +14,7 @@ for (a in 1:length(gene.names)) {
 
 	sink(
 		file.path(
-			"partitionfinder config files",
+			"pf_configs",
 			paste(gene.names[a],".cfg", sep="")
 		)
 	)
